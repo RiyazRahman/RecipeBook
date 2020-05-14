@@ -8,7 +8,7 @@ templateUrl: './header.component.html'
 })
 export class HeaderComponent {
     constructor(private dataStorageService: DataStorage,
-                private authService: AuthenticationService) {}
+                public authService: AuthenticationService) {}
 
     // @Output() featureSelected = new EventEmitter<string>();
     // onSelect(feature: string) {
